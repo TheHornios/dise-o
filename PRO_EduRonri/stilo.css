@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    float: left;
+    margin: 0 auto;
+    height: 100vh;
+}
+header.menu{
+    background: #F0F2A7;
+    width:80%;
+    position: relative;
+}
+header.menu img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 70%;
+    transform: translate(-50%,-60%);
+    
+}
+main.menu{
+    width: 20%;
+    background: #4465A6;
+}
+main.menu img{
+    margin: 5%;
+    margin-top:50%;
+    width: 90%;
+    height: 20%;
+}
+main.menu form{
+    margin: 0 auto;
+    text-align: center;
+}
+main.menu form div{
+    display: block;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+main.menu form div img{
+    position: relative;
+    top: 5px;
+    margin: 0;
+    margin-right: 5px;
+    height: 7%;
+    width: 7%;
+}
+main.menu form div input{
+    width: 70%;
+    height: 7%;
+}
+main.menu form div input[name="enviar"]:hover{
+    background: #D9AF32;
+    border:  #D9AF32 solid 1px;
+}
+main.menu form div input[name="enviar"]{
+    background: white;
+    border:  white solid 1px;
+}
+#enviar{
+    margin-top: 20%;
+}
+@media (max-width:800px){
+    main.menu{
+        width: 40%;
+    }
+    header.menu{
+        width: 60%;
+    }
+}
+body{
+    position: relative;
+}
+.estiloFondoPrincipal{
+    background-color: #F0F2A7;
+    display: block;
+    height: 180%;
+    margin: 0 auto;
+    padding: 0;
+}
+.estiloCabeceraPrincipal{
+    background-color: #324FA6;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.estiloCabeceraPrincipal h1{
+    min-width: 300px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+}
+.estiloCabeceraPrincipal div{
+    display: flex;
+    align-items: center;
+}
+.estiloCabeceraPrincipal img:first-of-type{
+    margin-right: 20px;
+}
+.estiloCabeceraPrincipal img{
+    height: 60px;
+}
+.estiloCabeceraPrincipal div span{
+    color:white;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+}
+.estiloCabeceraPrincipal div img{
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+}
+.estiloPiePrincipal{
+    background-color: #D9AF32;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.estiloFondoPrincipal p{
+    margin: 0;
+}
+.clear{
+    clear: both;
+}
+.estiloPiePrincipal img{
+    width: 40px;
+}
