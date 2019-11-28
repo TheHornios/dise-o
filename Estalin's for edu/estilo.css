@@ -1,0 +1,6 @@
+body,#lienzo{
+    overflow:hidden;
+    background: black;
+    height: 100%;
+    width: 100%;
+}
